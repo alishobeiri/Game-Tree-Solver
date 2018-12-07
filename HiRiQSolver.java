@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class tester {
+public class HiRiQSolver {
 
             public static void main(String[] args) {
             boolean[] B=new boolean[]{false,true,true,
