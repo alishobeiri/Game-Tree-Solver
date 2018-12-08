@@ -12,7 +12,7 @@ The implementation found in `HiRiQSolver.java` uses the A* path-finding algorith
 state and generate all possible moves that can be taken. These moves are then passed into a priority queue and sorted in 
 ascending order (lowest distance at the head of the queue) based on how close
 they move the board to the final solved board state. Each board state has a unique integer value which indicates which pegs on the
-board are currently white. The final board state has the value 2^15 = 32768. 
+board are currently white. The final board state has the value 2^{15} = 32768. 
 
 The distance metric used to to sort the potential moves is dist = abs(d(x) - 32768) 
 where d(x) denotes the total integer value of the current board state after applying move x.
